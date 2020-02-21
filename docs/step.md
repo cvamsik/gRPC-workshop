@@ -25,8 +25,10 @@
    ```
     
 2. Generate client and server side codes for specific language.
+```
     Python example(example.proto is inside the protos directory):
     python -m grpc_tools.protoc -I./protos --python_out=. --grpc_python_out=. ./protos/example.proto
+```
 
 3. Create the server and specify the port.
 
