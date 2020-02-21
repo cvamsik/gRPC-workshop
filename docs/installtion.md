@@ -19,7 +19,7 @@
 
 ### Move to a desired working directory and create a virtual environemnt
     virtualenv venv
-a
+
 ### Activate the virtual env
     source venv/bin/activate
 
